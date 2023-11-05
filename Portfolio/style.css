@@ -68,6 +68,7 @@ img{
     border: 2px solid rgb(96, 67, 134);
     cursor:pointer;
 }
+
 #intro{
     text-align: start;
     padding:9rem;
@@ -87,7 +88,7 @@ img{
 h1{
     color:paleturquoise;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 #certification{
@@ -135,7 +136,7 @@ main{
     height:220px;
     width:220px;
     border-radius: 50%;
-    background-image: url("./assets/contacts/profilepic.jpg");
+    background-image: url("./assets/me.png");
     background-size:contain;
     background-position: center;
 }
@@ -162,6 +163,7 @@ footer{
     background-color:blueviolet;
     width:85%
 }
+
 .pimg{
     height:300px;
     width:500px;
@@ -206,13 +208,24 @@ button{
 .aboutme{
     height:350px;
     width:100%;
-    /* border:2px solid green; */
+    /* border:2px solid green;  */
+    display: flex;
+    /* justify-content: space-around; */
+    gap:50px;
+    align-items: center;
 }
 
 #aboutimg{
     height:260px;
+    /* justify-self: flex-start; */
     width: 260px;
     border-radius: 35% 65% 75% 25% / 44% 33% 67% 56% ;
-    margin-top:60px;
-    margin-left: 120px;
+    margin-left: 100px;
+}
+
+.aboutme p{
+    /* justify-self: center; */
+    font-size: 18px;
+    width:60%;
+    line-height: 35px;
 }
